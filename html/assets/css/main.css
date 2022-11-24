@@ -1,0 +1,166 @@
+@import url('https://webfontworld.github.io/Cafe24Ohsquare/Cafe24Ohsquare.css');
+@import url('https://webfontworld.github.io/Cafe24Ohsquareair/Cafe24Ohsquareair.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+/* //reset */
+body {
+    background-color: #fff27b;
+}
+#header {
+    width: 100%;
+    height: 66px;
+
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    
+}
+.header__inner {
+    display: flex;
+    font-family: 'Cafe24Ohsquare';
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header__logo > img {
+    width: 37px;
+}
+.header__logo > h2 {
+    font-size: 28px;
+}
+.header__menu {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.header__menu > ul{
+    display: flex;
+    width: 60%;
+    font-family: 'Cafe24Ohsquareair';
+}
+.header__menu > ul > li {
+    padding-right: 20px;
+}
+.header__menu > ul > li a {
+    font-size: 22px;
+}
+.search {
+    width: 40%;
+}
+.search input {
+    padding: 10px 10px;
+    text-align: left;
+    width: 70%;
+}
+
+/* main */
+
+.main__desc {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Cafe24Ohsquare';
+    font-size: 24px;
+    padding: 80px 0 60px 0;
+    text-align: center;
+
+}
+.select {
+    width: 1240px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 65px;
+}
+.select__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.random {
+    width: 300px;
+    height: 440px;
+    border-radius: 20px;
+    /* background-color: #000; */
+    border: 4px solid #F8CB53;
+}
+.random > img {
+    width: 100px;
+    padding-top: 140px;
+    display: block;
+    margin: 0 auto;
+}
+.random > span {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Cafe24Ohsquare';
+    padding-top: 20px;
+    font-size: 22px
+}
+
+.emotion {
+    width: 300px;
+    height: 440px;
+    border-radius: 20px;
+    border: 4px solid #C8DF81;
+}
+.emotion > img {
+    width: 100px;
+    padding-top: 140px;
+    display: block;
+    margin: 0 auto;
+}
+.emotion > span {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Cafe24Ohsquare';
+    padding-top: 20px;
+    font-size: 22px
+}
+
+.list {
+    width: 300px;
+    height: 440px;
+    border-radius: 20px;
+    border: 4px solid #B7E7CF;
+}
+.list > img {
+    width: 100px;
+    padding-top: 140px;
+    display: block;
+    margin: 0 auto;
+}
+.list > span {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Cafe24Ohsquare';
+    padding-top: 20px;
+    font-size: 22px
+}

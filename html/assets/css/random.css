@@ -1,0 +1,185 @@
+@import url('https://webfontworld.github.io/Cafe24Ohsquare/Cafe24Ohsquare.css');
+@import url('https://webfontworld.github.io/Cafe24Ohsquareair/Cafe24Ohsquareair.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+/* //reset */
+body {
+    background-color: #fff27b;
+}
+#header {
+    width: 100%;
+    height: 66px;
+
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    
+}
+.header__inner {
+    display: flex;
+    font-family: 'Cafe24Ohsquare';
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header__logo > img {
+    width: 37px;
+}
+.header__logo > h2 {
+    font-size: 28px;
+}
+.header__menu {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.header__menu > ul{
+    display: flex;
+    width: 60%;
+    font-family: 'Cafe24Ohsquareair';
+}
+.header__menu > ul > li {
+    padding-right: 20px;
+}
+.header__menu > ul > li a {
+    font-size: 22px;
+}
+.search {
+    width: 40%;
+}
+.search input {
+    padding: 10px 10px;
+    text-align: left;
+    width: 70%;
+}
+
+
+/* main */
+
+.main__desc {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Cafe24Ohsquare';
+    font-size: 24px;
+    padding: 80px 0 60px 0;
+    text-align: center;
+}
+
+.random__view {
+    width: 1180px;
+    height: 600px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 65px;
+
+    position: relative;
+}
+.random__inner {
+    padding: 50px 100px;
+    position: relative;
+}
+.random__inner button {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    width: 145px;
+    height: 45px;
+    background-color: #fff2e2;
+    border: 2px solid #d8bfa0;
+    display: block;
+    border-radius: 50px;
+}
+
+.view__box {
+    display: flex;
+    padding-top: 60px;
+}
+.view__box > img {
+    width: 360px;
+}
+
+.coffee {
+    padding-left: 40px;
+}
+.coffee__name {
+    font-family: 'Cafe24Ohsquare';
+    font-size: 28px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #FFBB65;
+}
+.coffee__desc {
+    padding: 20px;
+
+    font-family: 'Cafe24Ohsquare';
+    font-size: 18px;
+    border-bottom: 1px solid #FFBB65;
+}
+
+.coffee__nutrition {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 16px;
+    font-family: 'Cafe24Ohsquareair';
+    border-bottom: 1px solid #FFBB65;
+}
+
+.bottom {
+    display: flex;
+    padding: 30px 20px;
+    border-bottom: 1px solid #FFBB65;
+}
+.line_01{
+    border-right: 1px solid #FFBB65;
+    padding-right: 50px;
+}   
+.line_01 li {
+    margin-bottom: 20px;
+    font-family: 'Cafe24Ohsquareair';
+    font-size: 16px;
+    
+}
+
+.line_02{
+    padding-left: 50px;
+}   
+.line_02 li {
+    margin-bottom: 20px;
+    font-family: 'Cafe24Ohsquareair';
+    font-size: 16px;
+    
+}
+
+.logo__view {
+    width: 100px;
+    position: absolute;
+    bottom: 110px;
+    right: 95px;
+}
